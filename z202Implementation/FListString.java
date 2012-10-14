@@ -1,10 +1,7 @@
-
-
-
 public abstract class FListString {
-
+    
     abstract FListString add(String str);
-
+    
     abstract boolean isEmpty();
 
     abstract String get(int i);
@@ -35,8 +32,8 @@ public abstract class FListString {
             FListString f2 = (FListString) obj;
 
             return f1.isEmpty() && f2.isEmpty()
-                    || f1.size() == f2.size()
-                    && f1.elementsAgree(f2);
+		|| f1.size() == f2.size()
+		&& f1.elementsAgree(f2);
 
         } else {
             return false;
@@ -44,7 +41,7 @@ public abstract class FListString {
     }
 
     @Override
-    public String toString() {
+	public String toString() {
         String build = "[" + this.getContents() + "]";
 
         return build;
@@ -78,7 +75,7 @@ class EmptyList extends FListString {
     }
 
     @Override
-    public int hashCode() {
+	public int hashCode() {
         return 246810;
     }
 }
@@ -138,8 +135,8 @@ class AddList extends FListString {
     }
 
     @Override
-    public int hashCode() {
+	public int hashCode() {
         return this.size() * this.x.hashCode()
-                + this.next.hashCode();
+	    + this.next.hashCode();
     }
 }
