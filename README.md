@@ -7,8 +7,8 @@ This repository contains:
 -The 10 implementations to be tested
 -The TestFListString.java file that contains our tests
 
-In order to run the test file, you must javac 1 of the 10 implementations
-and the TestFListString.java file, then java the TestFListString.
-Move to another directory and repeat the process for the other 9
-implementations. This is to avoid conflicts for having more than 1
-implementation of the FListString ADT while testing.
+Each implementation is in a separate folder to avoid naming conflicts.
+In order to test the implementation, I would recommend copying the 
+TestFlistString.javato each of the directories that contain an implementation. 
+Then, compile boththe implementation and the TestFListString.java. 
+Finally, run the TestFListString.java file.
