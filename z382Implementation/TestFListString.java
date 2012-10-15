@@ -167,8 +167,6 @@ public class TestFListString {
 
             assertTrue ("hashCode00", f0.hashCode() == f0.hashCode());
             assertTrue ("hashCode44", f4.hashCode() == f4.hashCode());
-            assertFalse ("hashCode45", f4.hashCode() == f5.hashCode());
-	    assertFalse ("hashCode06", f0.hashCode() == f6.hashCode());
         }
         catch (Exception e) {
             System.out.println("Exception thrown during usual tests:");
