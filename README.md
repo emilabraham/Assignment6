@@ -1,6 +1,6 @@
-Authors: Emil Abraham, Nicholas Tinsley, Matthew Coleman
+## Authors: Emil Abraham, Nicholas Tinsley, Matthew Coleman
 
-This is a blackbox testing of FListString ADT.
+# This is a blackbox testing of FListString ADT.
 
 This repository contains:
 -A memo that contains a list of bugs found in the 10 implementations tested.
