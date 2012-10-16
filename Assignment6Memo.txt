@@ -3,14 +3,33 @@ Matthew Coleman
 Nicholas Tinsley
 
 z030: 4 errors found
-z202: Test didn't compile because FListString.java didn't follow the
+Testing 0-argument emptyList()
+Exception thrown during accessors tests:
+java.lang.RuntimeException: This FListString is empty!
+
+***** Test failed ***** accessors: 15
+Exception thrown during usual tests:
+java.lang.RuntimeException: This FListString is empty!
+
+***** Test failed ***** usual: 21
+Exception thrown during accessors tests:
+java.lang.RuntimeException: This FListString is empty!
+
+***** Test failed ***** accessors: 37
+Exception thrown during usual tests:
+java.lang.RuntimeException: This FListString is empty!
+
+***** Test failed ***** usual: 43
+
+z202: Test didn't compile because FListString.java probably didn't follow the
 algebraic specification
-z319: Test didn't compile because FListString.java didn't follow the
+z319: Test didn't compile because FListString.java probably didn't follow the
 algebraic specification
 z373: 0 errors found
 z382: 0 errors found
-z391: 4 errors found
-z608: 4 errors found
+z391: 0 errors found
+
+z608: 0 errors found
 z640: 0 errors found
 z803: 0 errors found
 z915: 0 errors found

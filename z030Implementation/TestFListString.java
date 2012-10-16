@@ -100,6 +100,7 @@ public class TestFListString {
     private void accessors (int nargs) {
         try {
             assertTrue ("empty", FListString.isEmpty (f0));
+	    
             assertFalse ("nonempty", FListString.isEmpty (f1));
             assertFalse ("nonempty", FListString.isEmpty (f3));
 
